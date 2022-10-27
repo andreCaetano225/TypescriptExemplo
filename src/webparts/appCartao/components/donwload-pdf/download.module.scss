@@ -1,0 +1,57 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.appCartaoPdf {
+ @include ms-fontWeight-semibold;
+}
+
+.buttonstyle {
+    background-color: #00358e;
+    color: #fff;
+    margin-left: 37px;
+    width: 174px;
+    border: 1px solid #00358e;
+    // display: flex;
+    align-items: center;
+    cursor: pointer;
+    &:hover {
+      background-color: #022768;
+      color: #fff;
+    }
+  }
+  
+
+  
+@media (max-width: 480px) {
+  
+  .requestbutton {
+    color: #00358e;
+    border: solid 1px #00358e;
+    width: 87px;
+    cursor: pointer;
+    &:hover {
+      background-color: #00358e;
+      color: #fff;
+    }
+  
+    .ptext{
+      font-weight: 600;
+      line-height: 1;
+    }
+  }
+  
+  .buttonstyle {
+    background-color: #00358e;
+    color: #fff;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    width: 96px;
+    border: 1px solid #00358e;
+    cursor: pointer;
+    &:hover {
+      background-color: #022768;
+      color: #fff;
+    }
+
+  }
+  }

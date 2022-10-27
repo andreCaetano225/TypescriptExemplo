@@ -1,0 +1,43 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.footerdialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+
+  .sendbutton {
+    background-color: #00358e;
+    color: #fff;
+    width: 100px;
+    cursor: pointer;
+  }
+
+  .cancelbutton {
+    color: #00358e;
+    border: solid 1px #00358e;
+    cursor: pointer;
+    width: 100px;
+  }
+}
+
+.requestdialog {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  .titledialog {
+    @include ms-fontWeight-semibold;
+    font-size: 20px;
+    font-weight: 600;
+    color: #272727;
+    margin-top: -40px;
+  }
+
+  .textdialog {
+    margin-top: 18px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #717171;
+  }
+}

@@ -1,0 +1,142 @@
+.divFoto {
+    text-align: center;
+
+    img {
+        margin-top: 46px;
+        margin-right: 11px;
+        height: 350px;
+        width: 354px;
+        border-radius: 50%;
+    }
+}
+
+.appName{
+    display: flex;
+    justify-content: center;
+    -webkit-print-color-adjust:exact; 
+    margin-top: -202px;
+
+
+
+    div{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+        
+        h1{
+            font-size: 40px;
+            margin-top: 262px;
+
+            
+        }
+        
+        p{
+            margin-top: -28px;
+            font-size: 30px;
+        }
+}
+
+}
+
+    @media print {
+
+        .divFoto {
+            text-align: center;
+        
+            img {
+                margin-top: 46px;
+                margin-right: 11px;
+                height: 350px;
+                width: 354px;
+                border-radius: 50%;
+            }
+        }
+
+        .appName{
+            display: flex;
+            justify-content: center;
+            -webkit-print-color-adjust:exact; 
+            margin-top: -202px;
+        
+        
+        
+            div{
+                text-align: center;
+
+                font-family: Arial, Helvetica, sans-serif;
+        
+                
+                h1{
+                    font-size: 40px;
+                    margin-top: 262px;
+
+                }
+                
+                p{
+                    margin-top: -28px;
+                    font-size: 30px;
+                }
+        }
+        }
+
+    }
+
+
+
+
+.appNameNotFoto{
+    display: flex;
+    justify-content: center;
+    -webkit-print-color-adjust:exact; 
+
+
+
+    div{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+        
+        h1{
+            font-size: 40px;
+            margin-top: 262px;
+
+            
+        }
+        
+        p{
+            margin-top: -20px;
+            font-size: 30px;
+        }
+}
+
+}
+
+    @media print {
+
+        .appNameNotFoto{
+            display: flex;
+            justify-content: center;
+            -webkit-print-color-adjust:exact; 
+        
+        
+        
+            div{
+                text-align: center;
+
+                font-family: Arial, Helvetica, sans-serif;
+        
+                
+                h1{
+                    font-size: 40px;
+                    margin-top: 262px;
+
+                }
+                
+                p{
+                    margin-top: -25px;
+                    font-size: 30px;
+                }
+        }
+        }
+
+    }

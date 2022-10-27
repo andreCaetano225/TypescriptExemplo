@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "975952ed-4871-4172-a4d3-a70647e1d9ae",
+  "alias": "AppCartaoWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+  "supportsFullBleed": true,
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "AppCartao" },
+    "description": { "default": "AppCartao description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "approvalDowload"
+    }
+  }]
+}

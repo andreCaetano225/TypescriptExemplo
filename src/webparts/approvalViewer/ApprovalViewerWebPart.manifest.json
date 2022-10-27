@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "d28f823a-3848-49f2-b709-4700a9b6eb3e",
+  "alias": "ApprovalViewerWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+  "supportsFullBleed": true,
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": { "default": "Other" },
+      "title": { "default": "Visualizador de Aprovações" },
+      "description": {
+        "default": "Webpart para visualização de cartão de approvação"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "approvalViewer"
+      }
+    }
+  ]
+}

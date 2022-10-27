@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "app-vcard-client-side-solution",
+    "title": "Eurofarma - App VCard",
+    "id": "06a12a9f-6028-4670-855a-6cee99fb194a",
+    "version": "1.0.0.76",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/app-vcard.sppkg"
+  }
+}

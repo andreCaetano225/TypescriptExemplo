@@ -1,0 +1,105 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+.app {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .container {
+    padding: 50px;
+    .title {
+      font-size: 20px;
+    }
+    .colImage {
+      text-align: center;
+    }
+    .colButton {
+      text-align: center;
+      padding: 20px 0;
+    }
+    max-width: 700px;
+    width: 100%;
+    box-shadow: $ms-depth-shadow-4;
+    background-color: #fff;
+    margin-bottom: 30px;
+  }
+  .row {
+    @include ms-Grid-row;
+  }
+  .col12 {
+    @include ms-Grid-col;
+    @include ms-lg12;
+  }
+  .col6 {
+    @include ms-Grid-col;
+    @include ms-lg6;
+  }
+  img {
+    width: 200px;
+  }
+}
+
+.card {
+  text-align: center;
+  margin-top: 15px;
+}
+.buttonmodal {
+  border-radius: 2px;
+  height: 32px;
+  background-color: #00358e;
+  color: #fff;
+}
+.modal {
+  // width: 850px;
+  margin-left: -40px;
+  // height: 1202;
+}
+.close {
+  position: absolute;
+  top: 10px;
+  padding: 5px;
+  background-color: white;
+  color: #bf894b;
+  border-radius: 50px;
+  right: 10px;
+  font-size: 20px;
+  z-index: 1;
+  cursor: pointer;
+
+  .textIdioma{
+    color: #333;
+    font-weight: 500;
+    margin-right: 5px;
+  }
+ 
+}
+.buttonsIdioma{
+  width: 44px;
+  height: 26px;
+  background-color: #fff;
+  margin-right: 5px;
+  border: 1px solid #000;
+  color: #333;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.8s;
+
+  &:hover{
+    background-color: rgb(220, 220, 220);
+  }
+}
+
+.buttonSelec{
+
+  width: 44px;
+  height: 26px;
+  background-color: #fff;
+  margin-right: 5px;
+  border: 3px solid #00358e;
+  color: #333;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.8s;
+
+
+}

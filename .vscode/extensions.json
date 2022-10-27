@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "msjsdiag.debugger-for-edge",
+    "dbaeumer.vscode-eslint",
+    "christian-kohler.path-intellisense",
+    "christian-kohler.npm-intellisense",
+    "oderwat.indent-rainbow",
+    "EditorConfig.EditorConfig",
+    "CoenraadS.bracket-pair-colorizer",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag"
+  ]
+}

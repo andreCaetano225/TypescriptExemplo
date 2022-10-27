@@ -1,0 +1,67 @@
+.BordaRedonda{
+    display: flex;
+    justify-content: center;
+    
+    div{
+        margin-top: 99px;
+
+        
+            img{
+                border-radius: 50%;
+                border: 8px;
+                height: 250px;
+                width: 250px;
+            }
+           
+        }
+    }
+.NotBordaRedonda{
+        display: flex;
+        justify-content: center;
+        
+        div{
+            margin-top: 99px;
+
+
+            img{
+                height: 250px;
+                width: 250px;
+            }
+        }
+}
+
+.BordaQuadrada{
+
+    display: flex;
+    justify-content: center;
+    
+    div{
+        margin-top: 99px;
+
+
+
+        img{
+            border-radius: 15px;
+            border: 8px ;
+            height: 250px;
+            width: 250px;
+        }
+    }
+
+}
+
+.NotBordaQuadrada{
+    display: flex;
+    justify-content: center;
+    
+    div{
+        margin-top: 99px;
+
+
+
+        img{
+            height: 250px;
+            width: 250px;
+        }
+    }
+}

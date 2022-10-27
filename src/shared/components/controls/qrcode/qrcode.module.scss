@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 61px;
+
+    .qrContainer{
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+
+        div{
+            .qrborder{
+                border: solid 7px #FFF;
+                height: 168px;
+                width: 168px;
+            }
+        }
+        
+    }
+    
+    .Text{
+        display: flex;
+        justify-content: center;
+        margin-top: 3px;
+    
+        span{
+            display: flex;
+            justify-content: center;
+            width: 295px;
+    
+            h1{
+                font-size: 19px;
+                margin-left: 36px;
+            }
+        }
+    }
+}
+
+@media print {
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 61px;
+    
+        .qrContainer{
+            display: flex;
+            justify-content: center;
+            padding-top: 15px;
+    
+            div{
+                .qrborder{
+                    border: solid 7px #FFF;
+                    height: 168px;
+                    width: 168px;
+                }
+            }
+            
+        }
+        
+        .Text{
+            display: flex;
+            justify-content: center;
+            margin-top: 3px;
+        
+            span{
+                display: flex;
+                justify-content: center;
+                width: 295px;
+                -webkit-print-color-adjust:exact; 
+
+        
+                h1{
+                    font-size: 19px;
+                    margin-left: 36px;
+                    color: #ffffff;
+                    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+                }
+            }
+        }
+    }
+}

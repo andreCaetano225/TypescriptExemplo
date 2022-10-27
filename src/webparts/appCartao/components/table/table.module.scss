@@ -1,0 +1,195 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 77rem;
+  box-shadow: $ms-depth-shadow-4;
+  background-color: #fff;
+  padding: 0px 18px 0px 18px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.requestbutton {
+  color: #00358e;
+  border: solid 1px #00358e;
+  width: 152px;
+  cursor: pointer;
+  &:hover {
+    background-color: #00358e;
+    color: #fff;
+  }
+}
+
+.editicon {
+  color: #00358e;
+  margin: 0px 10px 0px 10px;
+  cursor: pointer;
+}
+
+.infoiconfailed {
+  color: #00358e;
+  margin-left: 2px;
+  margin-top: -6px;
+  cursor: pointer;
+}
+
+.infoiconcancel {
+  color: #00358e;
+  margin-left: 4px;
+  margin-top: -6px;
+  cursor: pointer;
+}
+
+.buttonstyle {
+  background-color: #00358e;
+  color: #fff;
+  margin-left: 52px;
+  width: 147px;
+  border: #00358e;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 23px 0px 26px;
+
+  .reprovado {
+    margin-right: auto;
+    @include ms-fontWeight-semibold;
+    font-size: 20px;
+    font-weight: 600;
+    color: #272727;
+  }
+
+  .closebutton {
+    color: #333;
+    size: 14px;
+  }
+}
+
+.contentmodal {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 23px 0px 26px;
+  height: 181px;
+  @include ms-fontWeight-semibold;
+
+  .title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #272727;
+  }
+
+  .text {
+    font-size: 14px;
+    font-weight: normal;
+    color: #717171;
+  }
+}
+
+.message {
+  @include ms-fontWeight-semibold;
+  font-size: 14px;
+  font-weight: normal;
+  color: #333;
+  padding-bottom: 26px;
+}
+
+.footerdialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+
+  .sendbutton {
+    background-color: #00358e;
+    color: #fff;
+    width: 100px;
+  }
+
+  .cancelbutton {
+    color: #00358e;
+    border: solid 1px #00358e;
+    width: 100px;
+  }
+}
+
+.requestdialog {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  .titledialog {
+    @include ms-fontWeight-semibold;
+    font-size: 20px;
+    font-weight: 600;
+    color: #272727;
+    margin-top: -40px;
+  }
+
+  .textdialog {
+    margin-top: 18px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #717171;
+  }
+}
+
+
+@media (max-width: 480px) {
+  
+.requestbutton {
+  color: #00358e;
+  border: solid 1px #00358e;
+  width: 96px;
+  cursor: pointer;
+  &:hover {
+    background-color: #00358e;
+    color: #fff;
+  }
+
+  .ptext{
+    font-weight: 600;
+    line-height: 1;
+  }
+}
+.editicon {
+  color: #00358e;
+  margin: 0px 10px 0px 10px;
+  cursor: pointer;
+  margin-left: -17px;
+}
+}
+
+@media (max-width: 380px) {
+  
+  .requestbutton {
+    color: #00358e;
+    border: solid 1px #00358e;
+    width: 96px;
+    cursor: pointer;
+    &:hover {
+      background-color: #00358e;
+      color: #fff;
+    }
+  
+    .ptext{
+      font-weight: 600;
+      line-height: 1;
+    }
+  }
+  .editicon {
+    color: #00358e;
+    margin: 0px 10px 0px 10px;
+    cursor: pointer;
+    margin-left: -17px;
+  }
+  }

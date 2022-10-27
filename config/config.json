@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "app-cartao-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/appCartao/AppCartaoWebPart.js",
+          "manifest": "./src/webparts/appCartao/AppCartaoWebPart.manifest.json"
+        }
+      ]
+    },
+    "approval-viewer-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/approvalViewer/ApprovalViewerWebPart.js",
+          "manifest": "./src/webparts/approvalViewer/ApprovalViewerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AppCartaoWebPartStrings": "lib/webparts/appCartao/loc/{locale}.js",
+    "ApprovalViewerWebPartStrings": "lib/webparts/approvalViewer/loc/{locale}.js"
+  }
+}

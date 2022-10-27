@@ -1,0 +1,20 @@
+
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+.container{
+    position: relative;
+}
+.controls {
+    @include ms-fontWeight-semibold;
+    height: 1202px;
+    width: 850px;   
+}
+
+@media print {
+    .controls {
+        @include ms-fontWeight-semibold;
+        position: absolute;
+        height: 1202px;
+        width: 850px;
+    }
+    
+}

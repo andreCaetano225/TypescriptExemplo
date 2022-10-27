@@ -1,0 +1,80 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+.background {
+  min-height: 80vh;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 5%;
+    flex-wrap: wrap;
+
+    .containerbutton {
+      width: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .button {
+        width: 147px;
+        height: 32px;
+        border: solid 1px #00358e;
+        background-color: #fff;
+        color: #00358e;
+        &:hover {
+          background-color: #00358e;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .divColumnsDesktop{
+    display: block;
+  }
+  .divColumnsMobile{
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+
+  @import "~office-ui-fabric-react/dist/sass/References.scss";
+
+.background {
+  min-height: 80vh;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 5%;
+    flex-wrap: wrap;
+
+    .containerbutton {
+      width: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .button {
+        width: 147px;
+        height: 32px;
+        border: solid 1px #00358e;
+        background-color: #fff;
+        color: #00358e;
+        &:hover {
+          background-color: #00358e;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .divColumnsDesktop{
+    display: none;
+  }
+  .divColumnsMobile{
+    display: block;
+  }
+}
+}

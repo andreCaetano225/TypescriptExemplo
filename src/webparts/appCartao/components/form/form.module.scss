@@ -1,0 +1,509 @@
+.form{
+
+   
+    .inputname{
+        width: 595px;
+        
+        &:hover{
+            cursor: auto;
+
+        }
+    }
+
+    h2{
+        font-size: 14px;
+        font-weight: 600;
+        text-align: left;
+
+        span{
+            margin-left: 2px;
+            color: #d63031;
+        }
+    }
+
+
+    
+
+    .formAE{
+        margin-top: 15px;
+
+        .inputnameemail{
+            width: 595px;
+            margin-top: 15px;
+
+
+        }
+
+        .TextDrop{
+            font-size: 14px;
+            color: rgb(50, 49, 48);
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+    }
+    .formTW{
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 595px;
+
+        input{
+            width: 287.5px;
+        }
+    
+    }
+
+    .formIg{
+        text-align: center;
+        margin-top: 80px;
+        div{
+            input{
+                width: 221.3px;
+                height: 24px;
+                background-color: #f2f2f0;
+                border-color: #f2f2f0;
+                border-style: none;
+
+            }
+        }
+
+    }
+    .Button{
+        border-radius: 2px;
+        width: 97px;
+        height: 32px;
+        background-color: #00358e;
+        color: #FFF;
+    }
+    .ButtonC{
+        border-radius: 2px;
+        width: 97px;
+        height: 32px;
+        background-color: #fff;
+        color: #000;
+    }
+// formulario
+    .formFi{
+        margin-top: 26px;
+        display: flex;
+        align-items: center;
+        max-width: 215px;
+        justify-content: space-between;
+    }
+
+    
+}
+
+.TitleModal{
+    margin-top: -35px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #717171;
+}
+
+.Modalsave{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    .Button{
+        background-color: #00358e;
+        color: #fff;
+        width: 100px;
+        cursor: pointer;
+    }
+
+    .ButtonCM{
+        color: #00358e;
+        border: solid 1px #00358e;
+        cursor: pointer;
+        width: 100px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .form{
+
+   
+        .inputname{
+            width: 367px;
+            &:hover{
+                cursor: auto;
+            }
+        }
+    
+        h2{
+            font-size: 14px;
+            font-weight: 600;
+            text-align: left;
+    
+            span{
+                margin-left: 2px;
+                color: #d63031;
+            }
+        }
+    
+    
+        
+    
+        .formAE{
+            margin-top: 15px;
+    
+            .inputnameemail{
+                width: 367px;
+                margin-top: 15px;
+    
+    
+            }
+    
+            .TextDrop{
+                font-size: 14px;
+                color: rgb(50, 49, 48);
+                font-weight: 500;
+                margin-bottom: 5px;
+            }
+        }
+        .formTW{
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    
+            input{
+                width: 287.5px;
+            }
+        
+        }
+    
+        .formIg{
+            text-align: center;
+            margin-top: 80px;
+            div{
+                input{
+                    width: 221.3px;
+                    height: 24px;
+                    background-color: #f2f2f0;
+                    border-color: #f2f2f0;
+                    border-style: none;
+    
+                }
+            }
+    
+        }
+        .Button{
+            border-radius: 2px;
+            width: 97px;
+            height: 32px;
+            background-color: #00358e;
+            color: #FFF;
+        }
+        .ButtonC{
+            border-radius: 2px;
+            width: 97px;
+            height: 32px;
+            background-color: #fff;
+            color: #000;
+        }
+    // formulario
+        .formFi{
+            margin-top: 26px;
+            display: flex;
+            align-items: center;
+            max-width: 215px;
+            justify-content: space-between;
+        }
+    
+        
+    }
+    
+    .TitleModal{
+        margin-top: -35px;
+        font-size: 14px;
+        font-weight: normal;
+        color: #717171;
+    }
+    
+    .Modalsave{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    
+        .Button{
+            background-color: #00358e;
+            color: #fff;
+            width: 100px;
+            cursor: pointer;
+        }
+    
+        .ButtonCM{
+            color: #00358e;
+            border: solid 1px #00358e;
+            cursor: pointer;
+            width: 100px;
+        }
+    }
+
+}
+
+
+
+@media (max-width: 375px) {
+
+    .form{
+
+   
+        .inputname{
+            width: 327px;
+            &:hover{
+                cursor: auto;
+            }
+        }
+    
+        h2{
+            font-size: 14px;
+            font-weight: 600;
+            text-align: left;
+    
+            span{
+                margin-left: 2px;
+                color: #d63031;
+            }
+        }
+    
+    
+        
+    
+        .formAE{
+            margin-top: 15px;
+    
+            .inputnameemail{
+                width: 327px;
+                margin-top: 15px;
+    
+    
+            }
+    
+            .TextDrop{
+                font-size: 14px;
+                color: rgb(50, 49, 48);
+                font-weight: 500;
+                margin-bottom: 5px;
+            }
+        }
+        .formTW{
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    
+            input{
+                width: 287.5px;
+            }
+        
+        }
+    
+        .formIg{
+            text-align: center;
+            margin-top: 80px;
+            div{
+                input{
+                    width: 221.3px;
+                    height: 24px;
+                    background-color: #f2f2f0;
+                    border-color: #f2f2f0;
+                    border-style: none;
+    
+                }
+            }
+    
+        }
+        .Button{
+            border-radius: 2px;
+            width: 97px;
+            height: 32px;
+            background-color: #00358e;
+            color: #FFF;
+        }
+        .ButtonC{
+            border-radius: 2px;
+            width: 97px;
+            height: 32px;
+            background-color: #fff;
+            color: #000;
+        }
+    // formulario
+        .formFi{
+            margin-top: 26px;
+            display: flex;
+            align-items: center;
+            max-width: 215px;
+            justify-content: space-between;
+        }
+    
+        
+    }
+    
+    .TitleModal{
+        margin-top: -35px;
+        font-size: 14px;
+        font-weight: normal;
+        color: #717171;
+    }
+    
+    .Modalsave{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    
+        .Button{
+            background-color: #00358e;
+            color: #fff;
+            width: 100px;
+            cursor: pointer;
+        }
+    
+        .ButtonCM{
+            color: #00358e;
+            border: solid 1px #00358e;
+            cursor: pointer;
+            width: 100px;
+        }
+    }
+
+}
+
+@media (max-width: 390px) {
+
+    .form{
+
+   
+        .inputname{
+            width: 343px;
+            &:hover{
+                cursor: auto;
+            }
+        }
+    
+        h2{
+            font-size: 14px;
+            font-weight: 600;
+            text-align: left;
+    
+            span{
+                margin-left: 2px;
+                color: #d63031;
+            }
+        }
+    
+    
+        
+    
+        .formAE{
+            margin-top: 15px;
+    
+            .inputnameemail{
+                width: 343px;
+                margin-top: 15px;
+    
+    
+            }
+    
+            .TextDrop{
+                font-size: 14px;
+                color: rgb(50, 49, 48);
+                font-weight: 500;
+                margin-bottom: 5px;
+            }
+        }
+        .formTW{
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    
+            input{
+                width: 287.5px;
+            }
+        
+        }
+    
+        .formIg{
+            text-align: center;
+            margin-top: 80px;
+            div{
+                input{
+                    width: 221.3px;
+                    height: 24px;
+                    background-color: #f2f2f0;
+                    border-color: #f2f2f0;
+                    border-style: none;
+    
+                }
+            }
+    
+        }
+        .Button{
+            border-radius: 2px;
+            width: 97px;
+            height: 32px;
+            background-color: #00358e;
+            color: #FFF;
+        }
+        .ButtonC{
+            border-radius: 2px;
+            width: 97px;
+            height: 32px;
+            background-color: #fff;
+            color: #000;
+        }
+    // formulario
+        .formFi{
+            margin-top: 26px;
+            display: flex;
+            align-items: center;
+            max-width: 215px;
+            justify-content: space-between;
+        }
+    
+        
+    }
+    
+    .TitleModal{
+        margin-top: -35px;
+        font-size: 14px;
+        font-weight: normal;
+        color: #717171;
+    }
+    
+    .Modalsave{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    
+        .Button{
+            background-color: #00358e;
+            color: #fff;
+            width: 100px;
+            cursor: pointer;
+        }
+    
+        .ButtonCM{
+            color: #00358e;
+            border: solid 1px #00358e;
+            cursor: pointer;
+            width: 100px;
+        }
+    }
+
+}

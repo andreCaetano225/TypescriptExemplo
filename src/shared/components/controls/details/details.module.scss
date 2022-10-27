@@ -1,0 +1,49 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.appDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+
+div{
+    margin-left: 79px;
+    margin-top: 15px;
+    
+    a{
+        margin-right: 70px;
+
+        img{
+            height: 118px;
+            width: 118px;
+        }
+    }
+}
+
+}
+
+ @media print {
+    .appDetails{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5px;
+
+    div{
+        margin-left: 79px;
+        margin-top: 15px;
+
+        a{
+            margin-right: 70px;
+    
+            img{
+                height: 118px;
+                width: 118px;
+            }
+        }
+     
+    }
+    
+    }
+    
+ }
